@@ -1,0 +1,20 @@
+.WarningMessage.active{
+    margin-top: 40px;
+    .content{
+        margin: 0 auto;
+        width: 70%;
+        padding: 16px 50px;
+        border-radius: 1em;
+        background-color: rgb(211, 56, 56);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .icon{
+            margin-right: 5px;
+        }
+    }
+}
+
+.NoNWarningMessage{
+    display: none;
+}

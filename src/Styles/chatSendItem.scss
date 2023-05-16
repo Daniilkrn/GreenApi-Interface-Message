@@ -1,0 +1,27 @@
+.chatSendItem{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    .cloud{
+        background-color: greenyellow;
+        border-radius: 1em;
+        padding: 20px;
+    }
+}
+
+.сhatCommingItem{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    .cloud{
+        background-color: greenyellow;
+        border-radius: 1em;
+        padding: 20px;
+    }
+}

@@ -1,0 +1,132 @@
+section{
+    margin-top: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    form{
+        box-sizing: border-box;
+        background-color: rgb(177, 179, 176);
+        border-radius: 1em;
+        padding: 40px;
+        height: 100%;
+        .qr{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            li{
+                text-align: center;
+                padding: 4px;
+            }
+            button{
+                background-color: #f3f3f3;
+                padding: 20px;
+                border: none;
+                border-radius: 1em;
+                margin-top: 5px;
+                cursor: pointer;
+            }
+            button:hover{
+                background-color: #ccc;
+            }
+        }
+        legend{
+            margin-bottom: 40px;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.04em;
+            color: #1F3F68;
+        }
+        display: flex;
+        flex-direction: column;
+        input{
+            margin-top: 5px;
+            padding: 20px 40px;
+            opacity: 0.4;
+            border: 1px solid rgb(0,168,132);
+            border-radius: 10px;
+            min-width: 400px;
+            margin-bottom: 10px;
+        } 
+        input.error{
+            border: 1px solid red;
+        }
+        label{
+            display: flex !important;
+            flex-direction: row !important;
+            margin-bottom: 10px;
+            span{
+                margin-left: 2px;
+                color: red;
+            }
+            box-sizing: border-box;
+            h5{
+                margin-bottom: 20px;
+                font-size: 16px;
+                line-height: 30px;
+                letter-spacing: 0.04em;
+                color: #1F3F68;
+            }
+            opacity: 0.8;
+            display: flex;
+            flex-direction: column;  
+            .email.error {
+                border-color: red;
+            }
+            .nick.error{
+                border-color: red;
+            }
+            .area.error{
+                border-color: red;
+            }
+            .email::placeholder {
+                color: #ccc;
+            }
+            .area{
+                padding-bottom: 100px;
+            }
+            input[placeholder]{
+                font-size: 16px;
+                line-height: 30px;
+                letter-spacing: 0.04em;
+                color: #1F3F68;
+                opacity: 0.2;
+            }
+        }
+        .btn_form{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            button{
+                cursor: pointer;
+                border: none;
+                width: 60%;
+                margin-top: 72px;
+                padding: 15px 20px;
+                background: rgb(0,168,132);
+                box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+                border-radius: 10px;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+                letter-spacing: 0.04em;
+                color: #FFFFFF;
+                
+            }
+            button:hover{
+                background-color: #7e99b9;
+            }
+        }
+    }    
+}
+
+.StyledMainContainer{
+    align-items: flex-start;
+}
+.container_home{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
